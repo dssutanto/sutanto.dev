@@ -1,0 +1,168 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                5
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cylinder001_01 - Default_0",
+            "translation" : [
+                -0.8569353222846985,
+                0.698887050151825,
+                0
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Cylinder001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                0.8569352626800537,
+                0,
+                0.6988871097564697
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "1f04a7718c08425e8aef26a6d77e0ab9.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                22.843326568603516,
+                22.84333038330078,
+                22.84333038330078
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "01_-_Default.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5882350206375122,
+                    0.5882350206375122,
+                    0.5882350206375122,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8136522173881531
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder001_01 - Default_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 874,
+            "max" : [
+                16.395715713500977,
+                16.174175262451172,
+                17.818767547607422
+            ],
+            "min" : [
+                -15.604284286499023,
+                -15.825823783874512,
+                -24.632427215576172
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 874,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 2988,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 10488,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10488,
+            "byteOffset" : 10488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5976,
+            "byteOffset" : 20976
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 26952,
+            "uri" : "scene.bin"
+        }
+    ]
+}

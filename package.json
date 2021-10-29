@@ -1,0 +1,24 @@
+{
+  "name": "sutanto.dev",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "snowpack build"
+  },
+  "author": "@dssutanto",
+  "license": "ISC",
+  "devDependencies": {
+    "gsap": "^3.8.0",
+    "snowpack": "^3.8.8",
+    "three": "^0.133.1"
+  },
+  "dependencies": {
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@tweenjs/tween.js": "^18.6.4",
+    "react-spring": "^9.3.0",
+    "sass": "^1.42.1"
+  }
+}

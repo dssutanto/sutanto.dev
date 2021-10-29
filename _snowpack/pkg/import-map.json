@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@tweenjs/tween.js": "./@tweenjs/tweenjs.js",
+    "three/build/three.module": "./three/build/three.module.js",
+    "three/examples/jsm/loaders/GLTFLoader": "./three/examples/jsm/loaders/GLTFLoader.js"
+  }
+}
