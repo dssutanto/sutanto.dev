@@ -7,7 +7,11 @@ export const projects = [
         model: null,
         shape: null,
         page: "",
+<<<<<<< HEAD
         link: "https://cjur.sutanto.dev"
+=======
+        link: ""
+>>>>>>> 889b642a44a3cd4ed83894e9777e13d336664224
     },
     {
         url: "assets/pokeball/scene.gltf",

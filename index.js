@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import * as THREE from "three/build/three.module";
 import * as TWEEN from "@tweenjs/tween.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+=======
+import * as THREE from "./_snowpack/pkg/three/build/three.module.js";
+import * as TWEEN from "./_snowpack/pkg/@tweenjs/tweenjs.js";
+import { GLTFLoader } from "./_snowpack/pkg/three/examples/jsm/loaders/GLTFLoader.js";
+>>>>>>> 889b642a44a3cd4ed83894e9777e13d336664224
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { projects } from "./projects.js";
 import { resume } from "./resume.js";
