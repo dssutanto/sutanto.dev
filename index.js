@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-import * as THREE from "three/build/three.module";
-import * as TWEEN from "@tweenjs/tween.js";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-=======
-import * as THREE from "./_snowpack/pkg/three/build/three.module.js";
-import * as TWEEN from "./_snowpack/pkg/@tweenjs/tweenjs.js";
-import { GLTFLoader } from "./_snowpack/pkg/three/examples/jsm/loaders/GLTFLoader.js";
->>>>>>> 889b642a44a3cd4ed83894e9777e13d336664224
+import * as THREE from "./node_modules/three/build/three.module.js";
+import { TWEEN } from "./node_modules/three/examples/jsm/libs/tween.module.min.js";
+import { GLTFLoader } from "./node_modules/three/examples/jsm/loaders/GLTFLoader.js";
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { projects } from "./projects.js";
 import { resume } from "./resume.js";
@@ -363,7 +357,7 @@ function animate() {
     // camera.lookAt(new THREE.Vector3(0, 8000, 0))
 
     for (var i = 0; i < vertices.array.length; i += 3) {
-        vertices.array[i + 2] = Math.sin(i + count * 0.005) * (myZ[Math.floor(i / 3)] - (myZ[Math.floor(i / 3)] * 2));
+        vertices.array[i + 2] = Math.sin(i + count * 0.025) * (myZ[Math.floor(i / 3)] - (myZ[Math.floor(i / 3)] * 2));
         plane.geometry.attributes.position.needsUpdate = true;
     }
     count++;

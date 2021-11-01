@@ -10,7 +10,11 @@ module.exports = {
     // '@snowpack/plugin-sass'
   ],
   packageOptions: {
-    /* ... */
+    source: "local",
+    knownEntrypoints: [
+      "three",
+      "@tweenjs/tween.js"
+    ]
   },
   devOptions: {
     /* ... */
