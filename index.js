@@ -1,9 +1,14 @@
-import * as THREE from "./assets/three/build/three.module.js";
-import { TWEEN } from "./assets/three/examples/jsm/libs/tween.module.min.js";
-import { GLTFLoader } from "./assets/three/examples/jsm/loaders/GLTFLoader.js";
-// import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import three from 'https://cdn.skypack.dev/three';
+// import * as THREE from "./node_modules/three/build/three.module.js";
+// import { TWEEN } from "./node_modules/three/examples/jsm/libs/tween.module.min.js";
+// import { GLTFLoader } from "./node_modules/three/examples/jsm/loaders/GLTFLoader.js";
 import { projects } from "./projects.js";
 import { resume } from "./resume.js";
+
+const THREE = await import ('https://cdn.skypack.dev/three');
+const GLTFLoader = await import('https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js');
+const TWEEN = await import('https://cdn.skypack.dev/@tweenjs/tween.js');
+
 
 var nightMode, currentMode, daytime, nighttime;
 
@@ -78,7 +83,7 @@ renderer.setClearColor(currentMode.background, 1);
 document.body.appendChild(renderer.domElement);
 
 // LOAD MODELS
-const loader = new GLTFLoader();
+const loader = new GLTFLoader.GLTFLoader();
 
 projects.map((project) => {
     loader.load(project.url, function (gltf) {
