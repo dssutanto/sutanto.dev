@@ -1,6 +1,6 @@
-import * as THREE from "./node_modules/three/build/three.module.js";
-import { TWEEN } from "./node_modules/three/examples/jsm/libs/tween.module.min.js";
-import { GLTFLoader } from "./node_modules/three/examples/jsm/loaders/GLTFLoader.js";
+import * as THREE from "./assets/three/build/three.module.js";
+import { TWEEN } from "./assets/three/examples/jsm/libs/tween.module.min.js";
+import { GLTFLoader } from "./assets/three/examples/jsm/loaders/GLTFLoader.js";
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { projects } from "./projects.js";
 import { resume } from "./resume.js";
