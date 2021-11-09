@@ -196,11 +196,11 @@ function navigate(direction) {
     document.querySelector("#subtitle").classList.remove("visible");
     let x1, x2;
     if (direction == "prev") {
-        x1 = -5000;
-        x2 = 5000;
-    } else {
         x1 = 5000;
         x2 = -5000;
+    } else {
+        x1 = -5000;
+        x2 = 5000;
     }
     let tweenOld = new TWEEN.Tween({ x: 0, y: 750, z: 0 }).to({ x: x1, y: 750, z: 0 }, 375);
     tweenOld.onUpdate(function (object) {
