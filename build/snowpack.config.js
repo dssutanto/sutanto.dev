@@ -10,7 +10,7 @@ module.exports = {
     // '@snowpack/plugin-sass'
   ],
   packageOptions: {
-    /* ... */
+    source: 'remote',
   },
   devOptions: {
     /* ... */
