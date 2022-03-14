@@ -1,12 +1,6 @@
-// import three from 'https://cdn.skypack.dev/three';
-// import * as THREE from "./node_modules/three/build/three.module.js";
-// import { TWEEN } from "./node_modules/three/examples/jsm/libs/tween.module.min.js";
-// import { GLTFLoader } from "./node_modules/three/examples/jsm/loaders/GLTFLoader.js";
 import { projects } from "./projects.js";
 import { resume } from "./resume.js";
 
-// const THREE = await import ('https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js');
-// const GLTFLoader = await import('https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js');
 const TWEEN = await import('https://cdn.skypack.dev/@tweenjs/tween.js');
 
 
